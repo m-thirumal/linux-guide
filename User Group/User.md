@@ -1,8 +1,11 @@
 ### What is a User?
 
 • Every process (running program) runs as particular user
+
 • Every file is owned by particular user
+
 • File and directory access are restricted by user
+
 • User associated with running process determines files and directories that process can access
 	
 ```
@@ -33,7 +36,9 @@
     
 #### Viewing User Information
 • To view info for current logged-in user, use id
-    ○ To view info about another user, add username as first argument
+
+   ○ To view info about another user, add username as first argument
+
       
         ```
         [student@desktop1 ~]$ id
@@ -46,8 +51,10 @@
 	 ```
 	    
 • To view process information, use ps
-	○ To view all processes, use a option
-	○ To view user associated with process, use u option
+
+   ○ To view all processes, use a option
+   
+   ○ To view user associated with process, use u option
 
     [student@server1 ~]$ ps au
     USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
@@ -61,20 +68,23 @@
 User/UID Mapping
 
 • Output of id, ls -l, and ps display username
+
 • OS tracks users by UID, not name
+
 • Names/UID mapping stored in /etc/passwd
+
 • Map uses flat-file with seven colon-separated fields per user:
 
 username:password:UID:GID:GECOS:/home/dir:shell
 
-Field	Description
-username	Mapping of a UID to a name for the benefit of human users.
-password	Historically, passwords were kept here in encrypted format. Today they are stored in a separate file called /etc/shadow.
-UID	User ID, the number that identifies the user at the most fundamental level.
-GID	The user’s primary group ID number. Groups are discussed next.
-GECOS	Arbitrary text field, usually includes the user’s real name.
-/home/dir	The location of the user’s personal data and configuration files.
-shell	A program that runs as the user logs in. For a regular user, this is normally the program that provides the user’s command line prompt.
+    Field	Description
+    username	Mapping of a UID to a name for the benefit of human users.
+    password	Historically, passwords were kept here in encrypted format. Today they are stored in a separate file called /etc/shadow.
+    UID	User ID, the number that identifies the user at the most fundamental level.
+    GID	The user’s primary group ID number. Groups are discussed next.
+    GECOS	Arbitrary text field, usually includes the user’s real name.
+    /home/dir	The location of the user’s personal data and configuration files.
+    shell	A program that runs as the user logs in. For a regular user, this is normally the program that provides the user’s command line prompt.
 
 	
 		
