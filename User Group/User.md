@@ -80,11 +80,11 @@ username:password:UID:GID:GECOS:/home/dir:shell
     Field	Description
     username	Mapping of a UID to a name for the benefit of human users.
     password	Historically, passwords were kept here in encrypted format. Today they are stored in a separate file called /etc/shadow.
-    UID	User ID, the number that identifies the user at the most fundamental level.
-    GID	The user’s primary group ID number. Groups are discussed next.
-    GECOS	Arbitrary text field, usually includes the user’s real name.
+    UID	        User ID, the number that identifies the user at the most fundamental level.
+    GID	        The user’s primary group ID number. Groups are discussed next.
+    GECOS	    Arbitrary text field, usually includes the user’s real name.
     /home/dir	The location of the user’s personal data and configuration files.
-    shell	A program that runs as the user logs in. For a regular user, this is normally the program that provides the user’s command line prompt.
+    shell	    A program that runs as the user logs in. For a regular user, this is normally the program that provides the user’s command line prompt.
 
 	
 		
