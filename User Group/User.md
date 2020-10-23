@@ -35,7 +35,7 @@
   ```
 Create user with home directory
 
-	usermod thirumal -m thirumal
+	usermod thirumal -m
 
 #### Viewing User Information
 • To view info for current logged-in user, use id
