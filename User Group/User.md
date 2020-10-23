@@ -7,7 +7,7 @@
 • File and directory access are restricted by user
 
 • User associated with running process determines files and directories that process can access
-	
+
 ```
     thirumal@thirumal:/home$ sudo adduser user2 --home  /home/user2home
     Adding user `user2' ...
@@ -28,18 +28,21 @@
     Is the information correct? [Y/n] y
     enkindle@production:/home$ ls -l
     total 16
-    drwxr-xr-x 19 jessica  jessica  4096 May 16 15:23 jessica 
+    drwxr-xr-x 19 jessica  jessica  4096 May 16 15:23 jessica
     drwxr-xr-x  2 thirumal thirumal 4096 May 16 15:45 thirumal
     drwxr-xr-x  2 user1    user1    4096 May 16 15:45 user1
     drwxr-xr-x  2 user2    user2    4096 May 16 15:49 user2home
   ```
-    
+Create user with home directory
+
+	usermod thirumal -m thirumal
+
 #### Viewing User Information
 • To view info for current logged-in user, use id
 
    ○ To view info about another user, add username as first argument
 
-      
+
         ```
         [student@desktop1 ~]$ id
         uid=1000(student) gid=1000(student) groups=1000(student),10(wheel) context=unconfined_u:nconfined_r:unconfined_t:s0-s0:c0.c1023
@@ -49,11 +52,11 @@
         drwx------. 2 student student  4096 Jan 25 20:0 orbit-student
         -rw-r--r--. 1 root    root    23574 Jan 24 13:5 postconf
 	 ```
-	    
+
 • To view process information, use ps
 
    ○ To view all processes, use a option
-   
+
    ○ To view user associated with process, use u option
 
     [student@server1 ~]$ ps au
@@ -85,8 +88,3 @@ username:password:UID:GID:GECOS:/home/dir:shell
     GECOS	    Arbitrary text field, usually includes the user’s real name.
     /home/dir	The location of the user’s personal data and configuration files.
     shell	    A program that runs as the user logs in. For a regular user, this is normally the program that provides the user’s command line prompt.
-
-	
-		
-	
-	
