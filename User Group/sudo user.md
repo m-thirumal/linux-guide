@@ -49,8 +49,29 @@
 
     sudo service ssh restart
 
+
+### Delete User
+
+#### To Delete user
+
+  userdel {username}
+
+  userdel thirumal
+
+#### To Delete user with home directory
+
+  userdel -r {username}
+
+  userdel -r thirumal
+
+#### To delete all the files which owns by the user
+
+  sudo killall -u {username}
+
+  sudo killall -u thirumal
+
 ### Password
 
-[Check password](./passwd.md)
+[To change/enable/disable/aging password](./passwd.md)
 
 
