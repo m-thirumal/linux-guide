@@ -9,5 +9,7 @@ Linux concepts and commands
 2. [HardWare](Hardware)
    1. [RAM](Hardware/ram.md)
    2. [CPU](Hardware/cpu.md)
-3. [File Management](File%20Management)
+3. [File System](File%20System)
+   1. [Storage](File%20System/Storage.md)
+4. [File Management](File%20Management)
    1. [File commands](File%20Management/command.md)
