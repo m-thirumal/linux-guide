@@ -1,13 +1,5 @@
 # Create user with bash shell and sudo permission
 
-### Create `sudo` user
-
-    usermod -aG sudo {username}
-
-### Change pass
-
-    passwd {userName}
-
 ### Add user with home directory & bash shell
 
     sudo useradd -s /bin/bash -d /home/thiruma -m thirumal
@@ -15,6 +7,14 @@
 ### Add bash shell
 
     sudo chsh -s /bin/bash {userName}
+
+### Make `sudo` user
+
+    usermod -aG sudo {username}
+
+### Change pass
+
+    passwd {userName}
 
 ### Enable `SSH` login for the user
 
