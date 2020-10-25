@@ -22,6 +22,8 @@
 
     sudo passwd {userName}
 
+    sudo passwd thirumal
+
 ### Enable `SSH` login for the user
 
   Open `sudo vi /etc/ssh/sshd_config` and modify the following
