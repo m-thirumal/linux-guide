@@ -14,17 +14,17 @@
 
 ### Make `sudo` user
 
-    usermod -aG sudo {username}
+    sudo usermod -aG sudo {username}
 
-    usermod -aG sudo thirumal
+    sudo usermod -aG sudo thirumal
 
 ### Change pass
 
-    passwd {userName}
+    sudo passwd {userName}
 
 ### Enable `SSH` login for the user
 
-  Open `vi /etc/ssh/sshd_config` and modify the following
+  Open `sudo vi /etc/ssh/sshd_config` and modify the following
 
   1. To enable password authentication, uncomment
 
