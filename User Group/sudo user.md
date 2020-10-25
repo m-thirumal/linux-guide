@@ -2,15 +2,21 @@
 
 ### Add user with home directory & bash shell
 
+    sudo useradd -s /bin/bash -d /home/{home directory} -m {user name}
+
     sudo useradd -s /bin/bash -d /home/thirumal -m thirumal
 
 ### Add bash shell
 
     sudo chsh -s /bin/bash {userName}
 
+    sudo chsh -s /bin/bash thirumal
+
 ### Make `sudo` user
 
     usermod -aG sudo {username}
+
+    usermod -aG sudo thirumal
 
 ### Change pass
 
