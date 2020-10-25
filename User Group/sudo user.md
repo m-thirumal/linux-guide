@@ -54,21 +54,21 @@
 
 #### To Delete user
 
-  userdel {username}
+    userdel {username}
 
-  userdel thirumal
+    userdel thirumal
 
 #### To Delete user with home directory
 
-  userdel -r {username}
+    userdel -r {username}
 
-  userdel -r thirumal
+    userdel -r thirumal
 
 #### To delete all the files which owns by the user
 
-  sudo killall -u {username}
+    sudo killall -u {username}
 
-  sudo killall -u thirumal
+    sudo killall -u thirumal
 
 ### Password
 
