@@ -2,7 +2,7 @@
 
 ### Add user with home directory & bash shell
 
-    sudo useradd -s /bin/bash -d /home/thiruma -m thirumal
+    sudo useradd -s /bin/bash -d /home/thirumal -m thirumal
 
 ### Add bash shell
 
