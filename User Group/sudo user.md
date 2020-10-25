@@ -45,6 +45,12 @@
 
     AllowUsers thirumal ubuntu
 
-After modification, restart ssh:
+  After modification, restart ssh:
 
     sudo service ssh restart
+
+### Password
+
+[Check password](./passwd.md)
+
+
