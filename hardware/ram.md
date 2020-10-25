@@ -9,6 +9,7 @@
 OR
 
     top
+    
 ### To check/get RAM details
 
     thirumal@database:~$ cat /proc/meminfo
