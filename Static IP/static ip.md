@@ -2,6 +2,7 @@
 
 1. Open and edit `sudo vi /etc/netplan/01-netcfg.yaml`
 
+```
     network:
         ethernets:
             ens160:
@@ -21,6 +22,8 @@
                         addresses: [8.8.8.8,8.8.4.4]
                 dhcp4: no
         version: 2
+       
+```
 
 2. Apply in debug mode
 
