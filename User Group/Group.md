@@ -8,3 +8,7 @@ In the above example user  `thirumal` is added to `docker` group
 
     `groups`
 
+### View the list of members in the group
+
+    vi /etc/group
+    
