@@ -5,6 +5,10 @@
     sudo useradd -s /bin/bash -d /home/{home directory} -m {user name}
 
     sudo useradd -s /bin/bash -d /home/thirumal -m thirumal
+    
+### Add user without home directory
+
+    sudo useradd -r -s /bin/false {USERNAME}
 
 ### Add bash shell
 
