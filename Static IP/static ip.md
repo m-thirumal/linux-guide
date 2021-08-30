@@ -1,6 +1,6 @@
 # Set static IP in Ubuntu
 
-1. Open and edit `sudo vi /etc/netplan/01-netcfg.yaml` or `sudo vi /etc/netplan/00-installer-config.yaml`
+1. Open and edit `sudo vi /etc/netplan/01-netcfg.yaml` or `sudo vi /etc/netplan/00-installer-config.yaml`. Don't modify `ens`
 
 ```
 network:
@@ -28,3 +28,5 @@ network:
 2. Apply in debug mode
 
     `sudo netplan --debug apply`
+    
+  
