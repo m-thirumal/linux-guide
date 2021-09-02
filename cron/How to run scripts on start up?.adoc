@@ -1,0 +1,11 @@
+== How to run scripts automatically when Ubuntu starts up?
+
+==== 1. Use *[.underline]#cron#*
+
+Running `crontab -e` will allow you to edit your cron.
+
+Adding a line like this to it:
+
+    `@reboot /path/to/script`
+
+will execute that script once your computer boots up.
