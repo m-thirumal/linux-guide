@@ -14,3 +14,19 @@
 
 ---- Add user name in `cron.allow`
 
+
+## Check Cron log
+
+    grep CRON /var/log/syslog
+
+## Troubleshoot
+
+No MTA installed, discord output
+
+install the following packages
+
+    1. sudo apt-get install postfix
+    2. sudo apt install mailutils
+
+
+Use mail to read the `cron job failed message`
