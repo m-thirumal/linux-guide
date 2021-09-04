@@ -12,7 +12,7 @@
 
 1. Create `cron.allow` in `/etc`, if it's not found
     
-        touch /etc/cron.allow
+        sudo touch /etc/cron.allow
 
 2. Add permission
     
