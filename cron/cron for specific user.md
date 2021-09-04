@@ -8,11 +8,17 @@
     You (postgres) are not allowed to use this program (crontab)
     See crontab(1) for more information
 
----Solution
+#### Solution:-
 
-    sudo chmod 644 cron.allow
+1. Create `cron.allow` in `/etc`, if it's not found
+    
+        touch /etc/cron.allow
 
----- Add user name in `cron.allow`
+2. Add permission
+    
+        sudo chmod 644 cron.allow
+
+3. Add user name `thirumal` in `cron.allow`
 
 
 ## Check Cron log
