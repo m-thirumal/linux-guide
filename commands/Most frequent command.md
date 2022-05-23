@@ -14,6 +14,9 @@
         * dtrx file.tar.bz2 
         * 7z x file.7z
     * Zip
+
+* Zip Folder
+ 	`tar -zcvf log.tar.gz logs/`
 * Print current shell name
     * $shell
 * Check RAM
