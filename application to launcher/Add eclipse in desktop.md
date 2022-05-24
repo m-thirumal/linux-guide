@@ -1,4 +1,4 @@
-1. Download [eclipse.desktop](eclipse.desktop) file in `/home/{username}/.local/share/applications/`
+1. Download <a href = 'eclipse.desktop'>eclipse.desktop</a> file in `/home/{username}/.local/share/applications/`
 2. Modify the eclipse location
 3. Reboot your machine
 4. Search for Eclipse
