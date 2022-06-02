@@ -13,3 +13,6 @@ Linux concepts and commands
    1. [Storage](File%20System/Storage.md)
 4. [File Management](File%20Management)
    1. [File commands](File%20Management/command.md)
+
+5. [Log](log)
+   1. [How to clean log files](log/How%20to%20clean%20log%20files.adoc)
