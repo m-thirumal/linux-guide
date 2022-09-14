@@ -14,6 +14,7 @@ Linux concepts and commands
 
 4. [ssh](ssh)
    1. [Passwordless Login using ssh](ssh/Passwordless_Login.adoc)
+   2. [Reboot server without login](ssh/Reboot_without_login.adoc)
 5. [File Management](File%20Management)
    1. [File commands](File%20Management/command.md)
 
