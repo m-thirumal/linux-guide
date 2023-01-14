@@ -2,8 +2,7 @@
 
 1. Open and edit `sudo vi /etc/netplan/01-netcfg.yaml` or `sudo vi /etc/netplan/00-installer-config.yaml`. Don't modify `ens`
 
-[source, bash]
-----
+```
 network:
     ethernets:
         ens160:
@@ -39,14 +38,12 @@ network:
         search: []
   version: 2
 
-       
-----
+```
 
 2. Apply in debug mode
 
-[source, bash]
-----
-sudo netplan --debug apply
-----
+
+    sudo netplan --debug apply
+
     
   
