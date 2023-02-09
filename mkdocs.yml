@@ -36,7 +36,7 @@ markdown_extensions:
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-repo_url: https://github.com/m-thirumal/linux_guide
-repo_name: m-thirumal/linux_guide
+repo_url: https://github.com/m-thirumal/linux-guide
+repo_name: m-thirumal/linux-guide
 
 
