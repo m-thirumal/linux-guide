@@ -42,8 +42,8 @@ network:
 
 2. Apply in debug mode
 
-
-    sudo netplan --debug apply
-
+```
+sudo netplan --debug apply
+```
     
   
