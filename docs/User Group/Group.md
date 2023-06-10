@@ -7,9 +7,12 @@ In the above example user  `thirumal` is added to `docker` group
 
 ### List current user groups
 
-    `groups`
+```bash
+groups
+```
 
 ### View the list of members in the group
 
-    vi /etc/group
-    
+```bash
+vi /etc/group
+```

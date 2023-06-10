@@ -2,7 +2,7 @@
 
 1. Open and edit `sudo vi /etc/netplan/00-installer-config.yaml`. Don't modify `ens`
 
-```
+```bash
 network:
     ethernets:
         ens160:
@@ -45,7 +45,7 @@ network:
 
 2. Apply in debug mode
 
-```
+```bash
 sudo netplan --debug apply
 ```
     
