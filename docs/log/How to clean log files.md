@@ -1,24 +1,22 @@
-= How to clean log files
+# How to clean log files
 
-===  [.underline]#Check the disk space (files and folders)#
+## Check the disk space (files and folders)
 
 Check the disk space from the command line. Use the `du` command to see which files and directories consume the most space inside of the `/var/log` directory.
 
-[source,bash]
-----
+```bash
 du -h /var/log/
 
 ls -l -h
-----
+```
 
-=== Empty the log file
+### Empty the log file
 
 Use the `cat` command (concatenate) to empty the log files or directories.
 
-[source,bash]
-----
+```bash
 cat /dev/null > deamon.log
-----
+```
 
 - `/dev/null` is a non-existent file with no information.
 

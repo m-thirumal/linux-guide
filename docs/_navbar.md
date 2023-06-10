@@ -16,3 +16,6 @@
 
 * Virus
     * [How to find & remove](virus/How%20find%20and%20remove.md)
+
+* Log
+    * [How to clean log files](log/How%20to%20clean%20log%20files.md)
