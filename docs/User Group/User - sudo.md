@@ -2,31 +2,41 @@
 
 ### Add user with home directory & bash shell
 
-    sudo useradd -s /bin/bash -d /home/{home directory} -m {user name}
+```bash
+sudo useradd -s /bin/bash -d /home/{home directory} -m {user name}
 
-    sudo useradd -s /bin/bash -d /home/thirumal -m thirumal
+sudo useradd -s /bin/bash -d /home/thirumal -m thirumal
+```
     
 ### Add user without home directory
 
-    sudo useradd -r -s /bin/false {USERNAME}
+```bash
+sudo useradd -r -s /bin/false {USERNAME}
+```
 
 ### Add bash shell
 
-    sudo chsh -s /bin/bash {userName}
+```bash
+sudo chsh -s /bin/bash {userName}
 
-    sudo chsh -s /bin/bash thirumal
+sudo chsh -s /bin/bash thirumal
+```
 
 ### Make `sudo` user
 
-    sudo usermod -aG sudo {username}
+```bash
+sudo usermod -aG sudo {username}
 
-    sudo usermod -aG sudo thirumal
+sudo usermod -aG sudo thirumal
+```
 
 ### Change pass
 
-    sudo passwd {userName}
+```bash
+sudo passwd {userName}
 
-    sudo passwd thirumal
+sudo passwd thirumal
+```
 
 ### Enable `SSH` login for the user
 
@@ -34,45 +44,62 @@
 
   1. To enable password authentication, uncomment
 
-    #PasswordAuthentication yes
+```bash
+#PasswordAuthentication yes
+```
 
   2. To enable root login, uncomment
 
-    #PermitRootLogin yes
+```bash
+#PermitRootLogin yes
+```
 
   3. To enable ssh key login, uncomment
 
-    #PubkeyAuthentication yes
-    #AuthorizedKeysFile .ssh/authorized_keys
+```bash
+#PubkeyAuthentication yes
+#AuthorizedKeysFile .ssh/authorized_keys
+```
 
   4. Add user name in 
 
-    AllowUsers thirumal ubuntu
+```bash
+AllowUsers thirumal ubuntu
+```
 
   After modification, restart ssh:
 
-    sudo service ssh restart
+```bash
+sudo service ssh restart
+```
 
 
 ### Delete User
 
 #### To Delete user
 
-    userdel {username}
+```bash
 
-    userdel thirumal
+userdel {username}
+
+userdel thirumal
+```
 
 #### To Delete user with home directory
 
-    userdel -r {username}
+```bash
+userdel -r {username}
 
-    userdel -r thirumal
+userdel -r thirumal
+```
 
 #### To delete all the files which owns by the user
 
-    sudo killall -u {username}
+```bash
+sudo killall -u {username}
 
-    sudo killall -u thirumal
+sudo killall -u thirumal
+```
 
 ### Password
 

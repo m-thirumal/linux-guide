@@ -1,6 +1,7 @@
 ### Add user to group
-
-    `sudo usermod -aG docker thirumal`
+```bash
+sudo usermod -aG docker thirumal
+```
 
 In the above example user  `thirumal` is added to `docker` group
 

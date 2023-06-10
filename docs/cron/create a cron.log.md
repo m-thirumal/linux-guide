@@ -6,7 +6,9 @@ Note that CRON jobs will still show up in syslog if you follow the following dir
 
 Open the file
 
-   `/etc/rsyslog.d/50-default.conf`
+```bash
+/etc/rsyslog.d/50-default.conf
+```
   
 Find the line that starts with:
 
@@ -14,11 +16,15 @@ Find the line that starts with:
 
 uncomment that line, save the file, and restart rsyslog:
 
-   `sudo service rsyslog restart`
+```bash
+sudo service rsyslog restart
+```
 
 You should now see a cron log file here:
 
-   `/var/log/cron.log`
+```bash
+/var/log/cron.log
+```
    
 Cron activity will now be logged to this file (in addition to syslog).
 
