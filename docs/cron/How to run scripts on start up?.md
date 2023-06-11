@@ -11,3 +11,10 @@ Adding a line like this to it:
 ```
 
 will execute that script once your computer boots up.
+
+
+### Start job after few minitues delay
+
+```bash
+@reboot sleep 60 ; /opt/janusgraph-1.0.0-rc2/bin/janusgraph-server.sh start
+```
