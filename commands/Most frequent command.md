@@ -16,7 +16,10 @@
     * Zip
 
 * Zip Folder
- 	`tar -zcvf log.tar.gz logs/`
+  ```
+  tar -zcvf log.tar.gz logs/
+  zip -r folder.zip folder/
+  ```
 * Print current shell name
     * $shell
 * Check RAM
