@@ -1,6 +1,6 @@
 # Set static IP in Ubuntu
 
-1. Open and edit `sudo vi /etc/netplan/00-installer-config.yaml`. Don't modify `ens`
+1. Open and edit `sudo vi /etc/netplan/50-cloud-init.yaml`. Don't modify `ens`
 
 ```bash
 network:
