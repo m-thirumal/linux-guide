@@ -1,3 +1,7 @@
+* [Installation](installation/ubuntu/Ubuntu.md)
+  * [Ubuntu](installation/ubuntu/Ubuntu.md)
+  * [Troubleshoot](installation/ubuntu/troubleshoot.md)
+
 * User & Group
 
   * [User](User%20Group/User.md)
