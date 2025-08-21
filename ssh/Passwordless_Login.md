@@ -1,4 +1,29 @@
-# PasswordLess Login using ssh on both server
+# Prerequisite 
+
+Ensure key authentication in SSH server is enables.
+
+On the server, open SSH config:
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+Ensure these lines exist (and are not commented with #):
+
+```bash
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys
+PasswordAuthentication yes   # (optional fallback)
+```
+Then, restart
+```bash
+sudo systemctl restart sshd
+```
+
+# PasswordLess Login using ssh from local machine
+
+
+
+# PasswordLess Login using ssh between servers
 
 Configuring passwordless logins between 2 Linux systems
 
